@@ -1,0 +1,138 @@
+body {
+    margin: 0px auto;
+    font-family: Roboto, sans-serif;
+}
+.main {
+    width: 100%;
+    width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.titles {
+    color: #007765;
+    line-height: 75px;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+}
+header {
+    width: 100%;
+    background-color: #007765;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.section_1 {
+    background: url(img/main.png) center no-repeat;
+    background-size: cover;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.main_title {
+    color: #FFFFFF;
+    line-height: 84px;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+}
+.section_2 {
+    border-color: #EEEEEE;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.text_section_2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+.section_3 {
+    background: url(img/hero.png) center no-repeat;
+    background-size: cover;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.text_section_3 {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;    
+    color: #FFFFFF;
+}
+.section_4 {
+    background-color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.text_section_4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+.logo {
+    float: left;
+    margin-right: 50px;
+}
+.section_5 {
+    background: #EEEEEE;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.img {
+    width: 350px;
+    height: 283px;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+}
+.team {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+footer {
+    background-color: #333333;
+    padding-top: 50px;
+    padding-bottom: 65px;
+}
+.text_footer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
